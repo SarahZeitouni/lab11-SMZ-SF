@@ -3,6 +3,10 @@ calculator.py
 - Defines functions used to create a simple calculator
 One function per operation, in order.
 """
+# https://github.com/SarahZeitouni/lab11-SMZ-SF
+# Partner 1: Sarah Zeituni
+# Partner 2: Samantha Flores
+
 import math
 def add(a, b):
     return a+b
