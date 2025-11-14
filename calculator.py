@@ -10,9 +10,9 @@ def subtract(a, b):
 def mul(a,b):
     return a*b
 def div(a,b):
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero!")
-    return a/b
+    return b/a
 def logarithm(a,b):
     if a <= 0 or b <= 0:
         raise ValueError("Base and argument must be greater than 0")
